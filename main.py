@@ -43,9 +43,71 @@
 #    use input() to take input from user.
 #    input() will always takes a string as an input.
 
-userin = int(input("Enter a number to print:"))
-
-print(userin-3)
-
+# userin = int(input("Enter a number to print:"))
+#
+# print(userin-3)
+#
 
 # Take two variables as an input from the user and perform all operators on those variables.
+
+
+# Conditional statements:
+#    Syntax of if statement:
+#           if condition:
+#               body of if
+#           else:
+#               body of else
+#           Nested if:
+#           if condition:
+#               body of outer if
+#               if condition:
+#                   body of inner if
+#
+#       indentation: are the white spaces before the line of code.
+
+x = 4
+y = 5
+w = 6
+
+# if x>y:
+#     if x < w:
+#         print("x is greater than y and less than w")
+#     else:
+#         print("x is greater than y and greater than w")
+# else:
+#     print("X is less than y")
+
+
+
+if x>y:
+    print("x is greater than y!")
+elif x < y:
+    print("x is less than y!")
+elif x == y:
+    print("x is equal to y!")
+else:
+    print("x is not equal to y!")
+
+
+print(0.00000001 * 10000000)
+
+
+
+# Create 6 variables to store (Name, FName, Cnic, Phone, Email and pass)
+# than ask user to enter email and pass than match user_email and user_pass with stored email and pass
+# if matched print all user details
+
+# output:
+# enter email: ______
+# enter pass: _______
+# Name: Yasir
+# FName: Nawaz Ali
+# CNIC: 413047836487
+# Phone: 0300000000
+# Email: abc@gmail.com
+
+
+
+
+
+
