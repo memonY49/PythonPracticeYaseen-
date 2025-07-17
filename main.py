@@ -65,9 +65,9 @@
 #
 #       indentation: are the white spaces before the line of code.
 
-x = 4
-y = 5
-w = 6
+# x = 4
+# y = 5
+# w = 6
 
 # if x>y:
 #     if x < w:
@@ -79,17 +79,17 @@ w = 6
 
 
 
-if x>y:
-    print("x is greater than y!")
-elif x < y:
-    print("x is less than y!")
-elif x == y:
-    print("x is equal to y!")
-else:
-    print("x is not equal to y!")
-
-
-print(0.00000001 * 10000000)
+# if x>y:
+#     print("x is greater than y!")
+# elif x < y:
+#     print("x is less than y!")
+# elif x == y:
+#     print("x is equal to y!")
+# else:
+#     print("x is not equal to y!")
+#
+#
+# print(0.00000001 * 10000000)
 
 
 
@@ -105,6 +105,31 @@ print(0.00000001 * 10000000)
 # CNIC: 413047836487
 # Phone: 0300000000
 # Email: abc@gmail.com
+
+# comments:
+#       single line: #
+#       multi line:  """"""
+
+# List:
+#       A collection of elements with hetrogenius datatypes
+# Syntax of a list:
+#           mylist = [1,4,7,8,9,'a','b',4.6,6.7,True,False]
+# how to use: listname[index]
+# Index: a unique location started from 0 provided to every single element of a list
+# Tuples: Same as a List but it is immutable (can not be changed or modified)
+
+my_list = [1,2,3,4]
+my_tuple = (1,2,3,4)
+
+my_list[2] = "three"
+my_tuple[3] = "three"
+
+
+print(my_list)
+print(my_tuple)
+
+
+
 
 
 
