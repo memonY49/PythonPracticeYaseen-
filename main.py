@@ -118,21 +118,37 @@
 # Index: a unique location started from 0 provided to every single element of a list
 # Tuples: Same as a List but it is immutable (can not be changed or modified)
 
-my_list = [1,2,3,4]
-my_tuple = (1,2,3,4)
+# my_list = [1,2,3,4]
+# my_tuple = (1,2,3,4)
+#
+# my_list[2] = "three"
+# my_tuple[3] = "three"
+#
+#
+# print(my_list)
+# print(my_tuple)
 
-my_list[2] = "three"
-my_tuple[3] = "three"
-
-
-print(my_list)
-print(my_tuple)
-
-
-
-
-
+# Sets: A collection of elements with hetrogenius datatypes but it is distinct in nature
+# and it is un ordered collection
 
 
+# There are two types of a list, tuple and sets:
+#   Single dimension:
+#   Multi dimension:
+#               List of Lists
+# mylist = [1,4,5,7,3,7,7]
+# mylits1 = [[1,3,4],
+#            [3,4,6],
+#            [2,5,7]]
+# mylist2 = [[[1,2,3],
+#             [3,5,7]],
+#            [[7,8,0],
+#             [1,6,9]]]
 
+
+mylist = [[2,4,6],
+          [7,9,0],
+          [1,4,9]]
+
+print(mylist[2][2])
 

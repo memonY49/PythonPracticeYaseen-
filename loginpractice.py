@@ -19,27 +19,28 @@ in python programming language
 
 
 
-Name = "Yasir"
-FName = "Nawaz"
-Cnic = "41305-33884444-1"
-Phone = "0304-00000000"
-Email = "abc@GMAIL.COM"
-Pass = "ABC123"
-
-userEmail = input("Enter your email:")      # Here I'm taking user email as an input
 
 
+data = [["Yasir","Nawaz","41300736386","0304355570","abc@gmail.com","abc123"],
+        ["Yasir","Nawaz","41300736386","0304355570","abc@gmail.com","abc123"],
+        ["Yasir","Nawaz","41300736386","0304355570","abc@gmail.com","abc123"],
+        ["Yasir","Nawaz","41300736386","0304355570","abc@gmail.com","abc123"],
+        ["Yasir","Nawaz","41300736386","0304355570","abc@gmail.com","abc123"]]
 
-if userEmail == Email:
-    userPass = input("Enter your password")
-    if userPass == Pass:
-        print("Name:", Name)
-        print("FName:", FName)
-        print("Cnic:", Cnic)
-        print("Phone:", Phone)
-        print("Email:", Email)
+userEmail = input("Enter your email:")
+userPass = input("Enter your password")
+if userEmail == data[4]:
+
+    if userPass == data[5]:
+        print("Name:", data[0])
+        print("FName:", data[1])
+        print("Cnic:", data[2])
+        print("Phone:", data[3])
+        print("Email:", data[4])
     else:
         print("Password is incorrect!")
 else:
     print("Email is incorrect!")
 
+
+mlist = [1,1,4,5,6,4]
