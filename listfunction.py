@@ -13,19 +13,21 @@
 # 	reverse()		Reverses the order of the list
 # 	sort()			Sorts the list
 
-mylist = (7,2,6,2)
+# mylist = {7,2,6,2}
 
-mylist.append(7)
+# mylist.append(7)
 
 # mylist2 = mylist.copy()
 
+# print(mylist2)
 # print(mylist)
 # print(mylist.count(2))
 # print(mylist.index(2))
-# mylist.pop(1)
+# mylist.pop()
 # mylist.remove(2)
 # mylist.reverse()
 
 # mylist.sort(reverse=True)
 
-print(mylist)
+# print(mylist[1])
+# print(mylist)
