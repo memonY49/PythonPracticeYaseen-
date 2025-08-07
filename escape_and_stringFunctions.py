@@ -33,10 +33,10 @@
 # 	title()
 
 
-# str1 = "aabcDef123456"
+str1 = "Aabc Def123456"
 
 # print(str1.capitalize())
-
+print(str1.title())
 # print(str1.lower())
 # print(str1.upper())
 
@@ -50,5 +50,14 @@
 # pro = "Python"
 # print("My name is:{myname} and Im teaching {mypro}".format(myname=name,mypro="Python"))
 # print(f"My name is: {name} and Im teaching {pro}")
+# print(str1.isnumeric())
+# print(str1.isalnum()
+# print(str1.isalpha())
+# print(str1.istitle())
+# print(str1.swapcase())
 
-
+# Most imported string functions
+data = "         yasir,nawaz,4130443357783,0304878676,abc@gmail.com,abc123          \n"
+# print(data.split(',')[0])
+# print(data.strip())
+# print(data.replace(' ','0'))
