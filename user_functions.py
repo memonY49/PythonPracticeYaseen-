@@ -9,14 +9,46 @@
 #   def function_name(parameters):
 #         body of a function
 
-def add(v1,v2):
-    print(f'printing {v1+v2}.....')
+# def add(v1,v2):
+#     print(f'printing {v1+v2}.....')
+#
+#
+# print("1. add")
+# print("2. sub")
+# choice = int(input("Enter your selection: "))
+# if choice == 1:
+#     a = int(input("Enter value 1: "))
+#     b = int(input("Enter value 2: "))
+#     add(a,b)
+
+# Parameters are the values to pass inside a function.
+# There are two types of a parameter:
+# 1. Required parameters
+# 2. Default or not required parameters.
+
+# def add(v1,v2=3):
+#     print(v1+v2)
+#
+# add(2,v2=6)
+
+# return keyword
+def add(v1,v2=3):
+    return v1+v2
+# a = len("abcdef")
+# print(a)
+
+a = add(1)+2
+print(a)
 
 
-print("1. add")
-print("2. sub")
-choice = int(input("Enter your selection: "))
-if choice == 1:
-    a = int(input("Enter value 1: "))
-    b = int(input("Enter value 2: "))
-    add(a,b)
+# Task1 : create a login function that takes 3 arguments (Email, Password and data)
+# where data is a list of dictionaries containing at least 20 users data
+# the function return true if email and password matches in the data
+# else it returns false after calling the function store return value in status var
+# and check if true show all details of that user else user not found.
+
+
+
+
+
+
