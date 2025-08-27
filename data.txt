@@ -1,7 +1,2 @@
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
-yasir3,nawaz,03000000000,41999090939,abc@gmail.com,abc123
+yasir5,nawaz,03000000000,41999090939,abc@gmail.com,abc123
+yasir6,nawaz,03000000000,41999090939,abc@gmail.com,abc123
